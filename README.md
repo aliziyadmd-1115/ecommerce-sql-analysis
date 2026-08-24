@@ -313,6 +313,38 @@ This analysis demonstrates how a raw multi-table e-commerce dataset can be trans
 
 The results highlight several actionable opportunities, particularly in customer retention, delivery performance, geographic expansion, and high-growth product categories. The project also demonstrates the use of PostgreSQL for data validation, relational database design, data cleaning, aggregation, CTEs, conditional logic, and window-function analysis.
 
+## Project Screenshots
+
+### Database Structure
+
+The project separates the original source data from the cleaned analytical database using `raw` and `clean` PostgreSQL schemas.
+
+![Database Structure](images/01_database_structure.png)
+
+### Executive Sales Overview
+
+The delivered-order analysis identified 96,478 completed orders representing approximately $13.22 million in product GMV.
+
+![Executive Sales Overview](images/02_executive_sales_overview.png)
+
+### Month-over-Month GMV Growth
+
+Window functions were used to compare monthly GMV with the previous month and identify periods of growth and decline.
+
+![Monthly GMV Growth](images/03_monthly_gmv_growth.png)
+
+### Delivery Performance and Customer Reviews
+
+Late deliveries received substantially lower customer ratings than orders delivered on time.
+
+![Delivery Performance and Reviews](images/04_delivery_reviews.png)
+
+### Product Category Growth
+
+Product-category performance was compared between January-August 2017 and January-August 2018 to identify established categories experiencing meaningful growth.
+
+![Product Category Growth](images/05_category_growth.png)
+
 ## Repository Structure
 
 ```text
