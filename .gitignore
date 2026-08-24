@@ -1,0 +1,9 @@
+# Raw source data
+data/raw/*.csv
+
+# Downloaded archives
+*.zip
+
+# Temporary/system files
+.DS_Store
+Thumbs.db
