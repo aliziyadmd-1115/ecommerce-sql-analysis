@@ -118,6 +118,7 @@ Relationship Validation
 SQL Business Analysis
       ↓
 Findings & Recommendations
+```
 
 | Validation Check                  | Result |
 | --------------------------------- | -----: |
